@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-group-joiner",
+  "version": "1.0.0",
+  "description": "Security testing script to join a WhatsApp group via an invite link.",
+  "main": "joinGroup.js",
+  "scripts": {
+    "start": "node joinGroup.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
